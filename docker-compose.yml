@@ -7,6 +7,7 @@ services:
     image: docuseal/docuseal:latest
     ports:
       - 3000:3000
+      - 3001:3001
     volumes:
       - ./docuseal:/data/docuseal
       - ./app:/app/app
