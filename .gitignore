@@ -2,6 +2,8 @@
 
 /db/*.sqlite3
 /db/*.sqlite3-*
+/pg_data/*
+
 
 /log/*
 /tmp/*
